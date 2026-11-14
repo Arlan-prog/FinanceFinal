@@ -1,0 +1,15 @@
+{
+  "name": "kepil-educational-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "hardhat build",
+    "test": "hardhat test solidity",
+    "demo": "hardhat run scripts/demo.ts"
+  },
+  "devDependencies": {
+    "ethers": "6.17.0",
+    "hardhat": "3.22.0"
+  }
+}
