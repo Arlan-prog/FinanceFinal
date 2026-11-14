@@ -1,0 +1,20 @@
+KEPIL SOURCE AND VIDEO VERIFICATION
+Checked: 14 November 2026 (Asia/Almaty)
+
+Official publisher page: https://www.elsevier.com/products/scopus/content
+Official source-list download: https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx
+Worksheet: Scopus Sources Oct. 2026
+File SHA-256: 1956c0d73b61459d634ae1a1a33fc118cba1e9ef60a1a715aebaa64c2a0dccce
+
+Applied Sciences (Switzerland) | source ID 21100829268 | row 3725 | Active | coverage 2011-2026 | cited article year 2023 | included
+Cogent Social Sciences | source ID 21100872366 | row 9566 | Active | coverage 2015-2026 | cited article year 2022 | included
+IEEE Access | source ID 21100374601 | row 18901 | Active | coverage 2013-2026 | cited article year 2022 | included
+Journal of Network and Computer Applications | source ID 27277 | row 27729 | Active | coverage 1996-2027 | cited article year 2021 | included
+Peer-to-Peer Networking and Applications | source ID 14300154706 | row 36975 | Active | coverage 2009-2026 | cited article year 2021 | included
+
+All five are source type Journal; the discontinued-title flag is blank. These checks confirm journal coverage for the cited publication years, not an individual Scopus document-record audit. The 2027 endpoint above is reproduced from the official October 2026 list; the relevant article year is 2021.
+
+Video: https://drive.google.com/file/d/1y6ScbQ-wPgfFQz3y9ex817yLJs_zvnVE/view?usp=drivesdk
+File title: demofinance. The browser displayed a Sign in link (logged-out state), loaded the video player and advanced playback to 0:12. No access request was required. Duration shown: 2:52. This is an access/playback check, not a full audiovisual quality review.
+Defense timing: 9:37 plus 0:23 reserve to the 10:00 limit.
+GitHub requires the unpacked files; the earlier check found only the ZIP.
