@@ -9,6 +9,10 @@ Kepil models a rental deposit held by a hypothetical bank. Solidity records the 
 - [GitHub repository](https://github.com/Arlan-prog/FinanceFinal)
 - [Recorded prototype demo](https://drive.google.com/file/d/1y6ScbQ-wPgfFQz3y9ex817yLJs_zvnVE/view?usp=drivesdk)
 
+## Post-submission clarification — 15 November 2026
+
+The submitted report, presentation and financial model are preserved. Their commercial projections remain unvalidated; the instructor’s concerns about acquisition, market sizing, B2B growth and sustainability are not resolved by the technical prototype. See [instructor feedback and next validation steps](docs/instructor-feedback-and-validation.md) for limitations and a proposed research methodology. No actual survey results are claimed.
+
 ## Status and scope
 
 The selected target architecture is permissioned Besu with four validators independently operated by four hypothetical organizations: Kepil, the partner bank, the inspection company and a consortium technical operator. This change from the three-organization Endterm design was approved on November 14, 2026. The runnable prototype uses a local Hardhat network. No Besu network or QBFT fault tolerance has been tested here. Validator status does not confer bank or inspector permissions in the application contract.
