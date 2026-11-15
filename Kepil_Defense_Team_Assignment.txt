@@ -62,3 +62,6 @@ A: OpenAI Codex (GPT-6) assisted research, code, financial formulas, writing and
 
 GitHub: https://github.com/Arlan-prog/FinanceFinal
 Demo: https://drive.google.com/file/d/1y6ScbQ-wPgfFQz3y9ex817yLJs_zvnVE/view?usp=drivesdk
+
+VISUAL SUPPORT UPDATE — 15 November 2026
+The redesigned deck keeps the same 23 slides and topic assignments. Use the process diagrams and numbered financial visuals to support answers. Stock photographs are illustrations only; they are not project customers or research evidence. Sources and figure/table references are in the slides and speaker notes.

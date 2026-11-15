@@ -124,3 +124,7 @@ Open the repository and demo in a logged-out browser before submission. A prior 
 ## Moodle submission folder
 
 The local `submission` folder contains the team report PDF and presentation, all five individual self-evaluation PDFs, and upload instructions. Each student uploads only their own self-evaluation; the team lead also uploads the team report and slides. This local convenience folder is not duplicated in the repository.
+
+## Presentation design
+
+The 23-slide deck uses process diagrams, editable financial charts/tables, Lucide icons and three credited illustrative photographs. Slide order and topic assignments are unchanged. Photographs do not represent project participants, a pilot or validated demand. See [visual source credits](docs/presentation-visual-sources.md). The current PPTX is also copied into the local `submission` folder.

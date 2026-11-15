@@ -162,3 +162,6 @@ The official source counts apartment premises, not annual rental contracts. We u
 
 Slide 23 — Additional stress tests
 Zero B2B adoption retains acquisition costs: NPV −302.43m and funding 420.18m. Combined conversion and cost stress: NPV −322.98m and funding 450.94m. Neither scenario supports full launch.
+
+VISUAL SUPPORT UPDATE — 15 November 2026
+The redesigned deck keeps the same 23 slides and topic assignments. Use the process diagrams and numbered financial visuals to support answers. Stock photographs are illustrations only; they are not project customers or research evidence. Sources and figure/table references are in the slides and speaker notes.

@@ -35,3 +35,7 @@ Owner account Arlan-prog authenticated through GitHub CLI with write access. The
 
 Instructor correction and submission packaging — 15 November 2026
 Instructor corrected to Daulet Shakenov using the team clarification. No academic title was assumed. Report cover and slide cover re-rendered and reviewed; report body unchanged. Prepared anonymous Russian survey and empty response template; zero responses collected. Local Moodle submission folder contains report PDF, slides and five individual self-evaluations with upload instructions.
+
+Presentation visual revision — 15 November 2026
+Redesigned 23 slides with navy/teal/cream palette, Lucide vector icons and three credited illustrative stock photographs. Financial content and slide ownership remain unchanged. Numbered tables and figures, axis titles, source credits, APA reference emphasis and the university title-slide logo retained. Updated defense support notes and local submission copy. Existing report/PDF/model and self-evaluation page/slide assignments were inspected and remain applicable.
+Presentation delivery validation: 23 slides; native chart on slide 7 and six native tables; package integrity passed; layout findings 0; re-import passed. Key financial figures and instructor name verified. Rendered slides visually reviewed. Local master, submission and GitHub upload copies are byte-identical.
