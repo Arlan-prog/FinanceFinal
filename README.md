@@ -9,9 +9,15 @@ Kepil models a rental deposit held by a hypothetical bank. Solidity records the 
 - [GitHub repository](https://github.com/Arlan-prog/FinanceFinal)
 - [Recorded prototype demo](https://drive.google.com/file/d/1y6ScbQ-wPgfFQz3y9ex817yLJs_zvnVE/view?usp=drivesdk)
 
-## Post-submission clarification — 15 November 2026
+## Revised analysis and defense format — 15 November 2026
 
-The submitted report, presentation and financial model are preserved. Their commercial projections remain unvalidated; the instructor’s concerns about acquisition, market sizing, B2B growth and sustainability are not resolved by the technical prototype. See [instructor feedback and next validation steps](docs/instructor-feedback-and-validation.md) for limitations and a proposed research methodology. No actual survey results are claimed.
+The active report, slides, financial model and defense guides now use a budget-driven customer funnel and 36 monthly B2B cohorts. Earlier submitted versions remain in private backups. This revision does not claim new customer observations: conversion, churn, prices and acquisition costs remain hypotheses. See [feedback response](docs/instructor-feedback-and-validation.md) and [research protocol](docs/customer-research-questionnaire.md).
+
+Conditional full-launch results: Year 1–3 net revenue KZT 1.28 / 4.43 / 10.02m; operating costs 64.37 / 111.47 / 178.96m; NPV at 20% −296.88m; minimum funding 411.27m; shortfall versus the former 230m benchmark 181.27m; approximate operating runway 22.62 months; no three-year payback. The 230m figure is a comparison benchmark, not the revised ask.
+
+The recommendation is to defer full launch. A separate proposed three-month validation study has a hypothetical 12m KZT ceiling (10.5m planned costs and 1.5m reserve). Illustrative 20% equity implies 60m post-money and 48m pre-money; this is negotiation arithmetic, not a supported valuation. No real investment is sought. Failure to validate economics means stop, with no committed second tranche.
+
+Formal oral presentation is not required. Submit the slides, present the demo video and working prototype, and prepare for individual questions on every part. Project Defense is 12 of 40 points; individual defense grades can differ. See [defense guide](Kepil_Defense_Team_Assignment.txt).
 
 ## Status and scope
 
@@ -21,7 +27,7 @@ This is a draft core-use-case prototype for review. It implements signatures, ba
 
 ## Run locally
 
-Use Node.js 22.13.0 or later (this workspace uses Node.js 24.11.0).
+Use Node.js 22.13.0 or later (this workspace uses Node.js 24.22.1).
 
 ```sh
 npm ci
@@ -36,7 +42,7 @@ The tests are Solidity tests run by Hardhat. `contracts/LeaseDeposit.t.sol` defi
 
 ## Files
 
-Verified on November 14, 2026: Solidity compilation succeeded, all 23 unit tests passed, and the scripted local deployment-to-settlement demonstration completed successfully. The team has recorded the narrated demo; the video is linked below.
+Verified on November 15, 2026: the Solidity build check succeeded (cached artifacts were current), all 23 unit tests passed, and the scripted local deployment-to-settlement demonstration completed successfully. The team has recorded the narrated demo; the video is linked below.
 
 - `contracts/LeaseDeposit.sol`: application contract.
 - `contracts/LeaseDeposit.t.sol`: unit tests.
@@ -44,7 +50,7 @@ Verified on November 14, 2026: Solidity compilation succeeded, all 23 unit tests
 - `docs/architecture.md`: roles, states, limitations and decisions for review.
 - `outputs/kepil-finance/Kepil_Financial_Model.xlsx`: VAT-inclusive financial forecast, income statement, cash flow and sensitivity analysis.
 - `docs/risk-and-legal-analysis.md`: risk register, mitigation budgets and sourced Kazakhstan legal analysis.
-- `outputs/report/Final_Project_Report.docx` and `.pdf`: assembled report; main text is 15 pages, with team responsibilities, source checks and final disclosure.
+- `outputs/report/Final_Project_Report.docx` and `.pdf`: assembled report; main text is 15 pages (physical pages 3–17), with team responsibilities, source checks and final disclosure.
 
 ## Review decisions
 
@@ -69,17 +75,17 @@ Each team member must commit their own actual contribution from their own accoun
 
 ## Team review and defense responsibilities
 
-These assignments follow the agreed defense blocks and identify responsibility for final review and explanation. They do not establish past authorship or individual contribution percentages.
+These assignments identify topic leads for Q&A and identify responsibility for final review and explanation. They do not establish past authorship or individual contribution percentages.
 
 | Member | Main slides | Report pages | Review area |
 | --- | --- | --- | --- |
-| Ardak Akytuly | 1–4 | 1–4 | Product, business model and architecture |
+| Ardak Akytuly | 1–4, 22 | 1–4 | Product, business model and architecture |
 | Aituar Taibulat | 5–6 | 5–6, 21 | Prototype, tests and security |
-| Akylzhan Uvazyrov | 7–9 | 10–14, 20 | Financial calculations and sensitivity |
-| Marlen Yerkinbayev | 10–12 | 7–9, 15–16, 22 | Risk, legal analysis and investment ask |
-| Galymzhan Nygmat | 13–15 | 17–19, 23–24 | Conclusions, references and disclosure |
+| Akylzhan Uvazyrov | 7–9, 19, 21, 23 | 10–14, 20, 24 | Financial calculations and sensitivity |
+| Marlen Yerkinbayev | 10–12, 20 | 7–9, 15–16, 22, 25 | Risk, legal analysis and investment ask |
+| Galymzhan Nygmat | 13–18 | 17–19, 23, 26 | Conclusions, references and disclosure |
 
-Backup slides: Galymzhan 16–18 (references); Akylzhan 19 (calculations); Marlen 20 (risk register).
+Backup slides: 16–18 references, 19 calculations, 20 risks, 21 acquisition, 22 market and 23 additional stress. Topic ownership does not restrict who may be questioned.
 
 Instructor feedback was to present calculations clearly, prepare to answer questions on any section, and study the project fundamentals. The response is a calculation guide in Appendix A, explicit financial assumptions, and cross-topic preparation for all five members. Team lead and recorded-demo author: Ardak Akytuly. Declared contribution shares: Ardak 40%, Aituar 10%, Akylzhan 16⅔%, Marlen 16⅔%, Galymzhan 16⅔% (100% total). Brief student profiles are in report Appendix D. Individual self-evaluations are submitted separately in Moodle and are not included in the GitHub upload package. Each student must review their own account before submission.
 
@@ -91,7 +97,7 @@ Dependencies are pinned by package-lock.json. At initial installation, updating 
 
 ## Source and video verification
 
-All five academic journals were matched to Elsevier’s official October 2026 Scopus source list. Each cited publication year falls within its journal coverage. Public video playback was verified without sign-in; duration is 2:52. The defense plan is 9:37 with 23 seconds reserved for transitions. Evidence and exact source IDs are in `docs/verification.txt`.
+All five academic journals were matched to Elsevier’s official October 2026 Scopus source list. Each cited publication year falls within its journal coverage. Public video playback was verified without sign-in; duration is 2:52. The former timed speech plan is superseded by the updated demo and individual Q&A format. Evidence and exact source IDs are in `docs/verification.txt`.
 
 ## References
 
@@ -105,4 +111,12 @@ These are technical documentation sources, not Scopus journal papers.
 
 ## AI Disclosure Statement
 
-We used OpenAI Codex to support research, coding, financial modelling, and the preparation of project materials. Our team selected the project approach, approved the assumptions, and studied the material independently. We take responsibility for the submitted work and for explaining our decisions, calculations, and prototype during the defense.
+OpenAI Codex (GPT-6) assisted research, coding, financial modelling, writing and formatting. Commercial drivers and study costs are hypothetical. No customer responses were generated as evidence. Every member must review and explain the assumptions, calculations and code.
+
+## Submission checklist
+
+The team lead submits `outputs/report/Final_Project_Report.pdf`, `Final_Project_Presentation.pptx` and their own self-evaluation PDF to Moodle. Other members submit their own self-evaluation PDFs. The DOCX is the editable report source. Paste the repository URL into the Moodle submission comment. No team number has been assigned; the project name remains Final Project.
+
+The model has one case selector at Assumptions D5: 1 conditional base, 2 conversion −30%, 3 opex +10%, 4 no B2B and 5 combined stress. The Acquisition sheet calculates contracts and billable account-months. Market separates housing stock from rental-event hypotheses. Validation is a separate proposed study budget, excluded from the full-launch forecast.
+
+Open the repository and demo in a logged-out browser before submission. A prior playback check does not guarantee future access. Each member must review their self-evaluation and make their own genuine contribution commits. Do not upload private build directories or backups.

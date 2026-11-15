@@ -6,7 +6,7 @@ Review date: 14 November 2026. Educational simulation. All partners, customers, 
 
 Kepil's core risks are commercial adoption, dependence on a bank and the gap between a tested local contract and an operating escrow service. The prototype records authorizations; it cannot force a bank to transfer KZT or prove that a bank acknowledgement is true. Four independent validators reduce concentration in the target design, but do not make the bank, inspector or off-chain evidence trustworthy by themselves.
 
-The financial model now includes VAT-inclusive customer prices, additional Besu/security estimates and an explicit income statement. At a 20% discount rate, base-case NPV is approximately negative KZT 203.94 million. Minimum modeled funding is KZT 262.57 million, compared with the unchanged ask of KZT 230 million. The KZT 32.57 million gap and approximately 30.31 months of operating runway are calculated results, not a proposed increase in the ask. There is no payback within three years. See `Summary` in the financial workbook.
+The revised conditional full-launch model has NPV −296.88m KZT at 20%, minimum funding 411.27m, shortfall of 181.27m versus the former 230m benchmark and approximate operating runway of 22.62 months. No three-year payback occurs. The recommendation is to defer launch and evaluate a separate hypothetical 12m, three-month study. Neither the prototype nor explicit funnel formulas validate demand.
 
 ## Risk assessment method
 
@@ -17,7 +17,7 @@ Table 1. Kepil risk register
 | ID and category | Event and consequence | Likelihood | Impact | Response and evidence required | Hypothetical owner | Budget link |
 |---|---|---|---|---|---|---|
 | R1 Market | Landlords decline escrow; tenants cannot adopt alone | High | High | Anonymous consent-based research; measure willingness to pay; no claimed pilots or signed clients | Commercial lead | B5 and existing staff |
-| R2 Market | Average B2B subscriber growth falls short | High | High | Track average paying subscribers, retention and acquisition costs; retain the approved demand downside | Commercial lead / finance lead | B5 and existing staff |
+| R2 Market | B2B cohorts fail to convert or retain paying accounts | High | High | Track average paying subscribers, retention and acquisition costs; test conversion, zero B2B adoption and combined downside | Commercial lead / finance lead | B5 and existing staff |
 | R3 Bank dependency | No bank offers the assumed product, API or KZT 500 fee | High | High | Treat bank partnership as a prerequisite; hypothetical terms must cover permissions, reconciliation and failure handling | Operations / legal lead | B1, B3, B4, B6 |
 | R4 Security | Unauthorized transition or repeat release authorization | Medium | High | Current sender/state checks and negative unit tests; independent audit before any hypothetical production launch | Technical lead | B1 and B2 |
 | R5 Security | Bank or inspector key is compromised | Medium | High | Separate custody, approvals, recovery and revocation design; current immutable-role prototype lacks recovery and pause | Security lead | B1, B6, B7 |
@@ -33,7 +33,7 @@ Source: project-specific assessment based on the supplied Endterm, the current p
 
 Table 1 distinguishes implemented checks from planned controls. The 23 passing tests provide local behavioral evidence for selected contract paths. They do not verify a bank connection, privacy compliance, key recovery, an external audit or a Besu deployment. The previously observed Hardhat/Zod advisory is a tooling issue; it is not evidence of an exploitable flaw in the Solidity contract.
 
-## Mitigation budget reconciliation
+## Retained full-launch mitigation budget
 
 Table 2. Budget lines supporting risk mitigation, KZT million
 
@@ -49,7 +49,7 @@ Table 2. Budget lines supporting risk mitigation, KZT million
 
 Source: Endterm budget and additional educational estimates approved by the user on 14 November 2026. Amounts are not supplier quotations or evidence of completed procurement.
 
-Year 0 spending is 55 + 6.5 + 4 + 2 + 3.5 + 1.2 = KZT 72.2 million. The initial funding leaves 230 − 72.2 = KZT 157.8 million for operations. B7 is added once to infrastructure/security operations, yielding 5.4 / 10.8 / 19.2 million before scenario shocks. B6 and B7 are shared allowances; do not multiply them by the number of risks referencing them. Audit and legal work remain in B2 and B3, not counted again in B6.
+Year 0 spending is 55 + 6.5 + 4 + 2 + 3.5 + 1.2 = KZT 72.2 million. The legacy financing benchmark leaves 230 − 72.2 = KZT 157.8 million for operations. B7 is added once to infrastructure/security operations, yielding 5.4 / 10.8 / 19.2 million before scenario shocks. B6 and B7 are shared allowances; do not multiply them by the number of risks referencing them. Audit and legal work remain in B2 and B3, not counted again in B6.
 
 Key recovery, reconciliation, monitoring and backup procedures are proposed uses of these allowances. Their inclusion is not proof that the allowance is sufficient or the controls exist. Unexpected litigation, a regulatory licence requirement or materially higher vendor prices would require a revised budget and decision. The project does not assume purchasing insurance or completing a certification.
 
@@ -97,7 +97,9 @@ The actual VAT registration point depends on applicable rules and turnover. Offi
 
 This review used official government, regulator and standards-setter sources. Some Adilet full-text pages returned access errors; the linked indexed official extracts or government-hosted copies support only the propositions stated. An article-by-article current consolidated legal opinion has not been completed. No unverified licence fee, bank tariff or legal exemption has been inserted.
 
-Before report assembly, open the linked sources, confirm their effective versions and retain only sources actually cited. These legal and technical sources do not replace the requirement for five qualifying Scopus papers. The assembled report uses the approved educational negotiation example of KZT 230 million for 20% equity, implying KZT 1,150 million post-money and KZT 920 million pre-money valuation. These are not NPV-supported valuations. The hypothetical LLP form and governance procedures remain proposals. The financial model is complete for its disclosed educational assumptions; commercial feasibility and real-world legal compliance remain unproven.
+The full-launch budget above is a rejected immediate plan retained for comparison. The separate proposed study budgets 4.8m technical staff, 1.2m research staff, 2m security design review, 1m bank/legal feasibility review, 0.6m research, 0.4m tools, 0.5m recovery planning and 1.5m reserve. Shared mitigation budgets are counted once. Study security review does not replace the 6.5m production audit allowance if launch is later reconsidered.
+
+The proposed study negotiation example is 12m for 20% equity, implying 60m post-money and 48m pre-money. No valuation or positive investor return is validated. No company or token is created. Empirical commercial feasibility and real-world legal compliance remain unproven.
 
 ## AI Disclosure Statement
 

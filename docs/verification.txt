@@ -18,3 +18,17 @@ Video: https://drive.google.com/file/d/1y6ScbQ-wPgfFQz3y9ex817yLJs_zvnVE/view?us
 File title: demofinance. The browser displayed a Sign in link (logged-out state), loaded the video player and advanced playback to 0:12. No access request was required. Duration shown: 2:52. This is an access/playback check, not a full audiovisual quality review.
 Defense timing: 9:37 plus 0:23 reserve to the 10:00 limit.
 GitHub requires the unpacked files; the earlier check found only the ZIP.
+
+
+UPDATE — 15 November 2026
+The historical timing and upload observations above are retained as records, not current instructions. The 9:37 speech plan is superseded. Current defense format is required demo video, working prototype and individual Q&A, with submitted supporting slides. No formal oral presentation is required.
+Official BNS housing stock 2025 rechecked: Kazakhstan 6,196,267 residential premises (apartments); Astana 575,983. These are stock counts, not rental flows.
+Source: https://stat.gov.kz/en/industries/business-statistics/stat-inno-build/publications/477126/
+Tax announcement rechecked: base VAT 16%, CIT 20%; registration from launch remains a modeling assumption.
+Source: https://www.gov.kz/org/economy/press/news/details/1036878?lang=ru
+
+Final revision QA — 15 November 2026
+23 Solidity tests pass; build check found cached artifacts current; local deployment-to-settlement demo passes. Five finance scenarios agree with independent arithmetic; key outputs and native sensitivity tables also agree with LibreOffice recalculation. Workbook error scan: zero matches. Presentation: 23 slides, package integrity and layout checks pass, native chart/tables retained. Report: 26 physical pages, main body pages 3–17 (15 pages). All five self-evaluations render to one page. Local package synchronized; remote GitHub was not updated because the connected account has read-only access.
+
+GitHub publication preparation — 15 November 2026
+Owner account Arlan-prog authenticated through GitHub CLI with write access. The previous connector access limitation is superseded for this publication. The reviewed submission package is being synchronized in one commit; the commit receipt is retained locally.
