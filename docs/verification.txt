@@ -32,3 +32,6 @@ Final revision QA — 15 November 2026
 
 GitHub publication preparation — 15 November 2026
 Owner account Arlan-prog authenticated through GitHub CLI with write access. The previous connector access limitation is superseded for this publication. The reviewed submission package is being synchronized in one commit; the commit receipt is retained locally.
+
+Instructor correction and submission packaging — 15 November 2026
+Instructor corrected to Daulet Shakenov using the team clarification. No academic title was assumed. Report cover and slide cover re-rendered and reviewed; report body unchanged. Prepared anonymous Russian survey and empty response template; zero responses collected. Local Moodle submission folder contains report PDF, slides and five individual self-evaluations with upload instructions.

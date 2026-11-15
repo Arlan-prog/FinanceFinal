@@ -69,7 +69,7 @@ Distinguish the approved tenant-confirmation condition from the remaining detail
 - Submission name: Final Project (no team number assigned).
 - GitHub repository: [Arlan-prog/FinanceFinal](https://github.com/Arlan-prog/FinanceFinal).
 - Demo video: [Watch the recorded demonstration](https://drive.google.com/file/d/1y6ScbQ-wPgfFQz3y9ex817yLJs_zvnVE/view?usp=drivesdk).
-- Supervisor according to supplied requirements: Nurkhat Ibadildin, Associate Professor.
+- Instructor: Daulet Shakenov.
 
 Each team member must commit their own actual contribution from their own account. This workspace does not fabricate contribution history. The recorded demo should show deployment, the main use case and passing tests within three minutes. Public video playback was verified without Google sign-in on 14 November 2026 (duration 2:52). Upload the unpacked repository files before submission.
 
@@ -120,3 +120,7 @@ The team lead submits `outputs/report/Final_Project_Report.pdf`, `Final_Project_
 The model has one case selector at Assumptions D5: 1 conditional base, 2 conversion −30%, 3 opex +10%, 4 no B2B and 5 combined stress. The Acquisition sheet calculates contracts and billable account-months. Market separates housing stock from rental-event hypotheses. Validation is a separate proposed study budget, excluded from the full-launch forecast.
 
 Open the repository and demo in a logged-out browser before submission. A prior playback check does not guarantee future access. Each member must review their self-evaluation and make their own genuine contribution commits. Do not upload private build directories or backups.
+
+## Moodle submission folder
+
+The local `submission` folder contains the team report PDF and presentation, all five individual self-evaluation PDFs, and upload instructions. Each student uploads only their own self-evaluation; the team lead also uploads the team report and slides. This local convenience folder is not duplicated in the repository.

@@ -22,3 +22,5 @@ Before participation, explain that this is voluntary anonymous academic research
 Report dates, recruitment channels, approached organizations, refusals, eligible respondents and completed responses. Deduplicate without storing personal identifiers. Publish only aggregates and suppress small identifying cells. Preserve negative responses. Report denominators for every percentage and distinguish stated interest from purchases.
 
 The model hypotheses (CPL 1,500; qualification 30%; both signatures 50%; funding 70%; B2B trial 30%; paid 20%; monthly churn 2%) are placeholders to challenge, not survey results. This questionnaire alone cannot measure paid conversion or retention. No real advertising, sales, enrollment or money collection is required by the course.
+
+Ready-to-use Russian questionnaire: [customer-survey-ru.txt](customer-survey-ru.txt). Blank response template: [customer-survey-response-template.txt](customer-survey-response-template.txt). No responses have been collected.
