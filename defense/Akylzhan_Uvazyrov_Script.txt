@@ -51,7 +51,7 @@ A: A bank assertion may be false; inspector keys may be compromised; hashes do n
 Q: How is the study controlled?
 A: A separate 12m cap, no revenue assumption and no second tranche. Direct CAC must fit contribution; B2B economics and bank feasibility need evidence. Stop if the gates fail. Course interviews cannot prove paid retention.
 Q: What did AI do?
-A: OpenAI Codex (GPT-6) assisted research, code, financial formulas, writing and formatting. We must independently understand and review the work. No synthetic survey responses are evidence.
+A: OpenAI Codex (GPT-6) assisted with research, presentation preparation, and project development. The team takes responsibility for managing the project, reviewing its processes, and verifying and explaining the calculation logic, assumptions, and final results. All commercial conversion rates and study costs remain hypothetical. No customer responses were generated as research evidence.
 
 GitHub: https://github.com/Arlan-prog/FinanceFinal
 Demo: https://drive.google.com/file/d/1y6ScbQ-wPgfFQz3y9ex817yLJs_zvnVE/view?usp=drivesdk

@@ -103,4 +103,4 @@ The proposed study negotiation example is 12m for 20% equity, implying 60m post-
 
 ## AI Disclosure Statement
 
-OpenAI Codex (GPT-6) assisted with source discovery, drafting this risk and legal analysis, linking proposed mitigations to the budget, and preparing and checking the financial model. The user approved the platform, validator structure, timed-release condition, financial stress scenarios, additional budget estimates and VAT-inclusive pricing, and delegated the accounting simplification. The team must review the sources, assumptions and wording and disclose any other tools actually used. No claim is made that the team has already performed independent verification.
+OpenAI Codex (GPT-6) assisted with research, presentation preparation, and project development. The team takes responsibility for managing the project, reviewing its processes, and verifying and explaining the calculation logic, assumptions, and final results. All commercial conversion rates and study costs remain hypothetical. No customer responses were generated as research evidence.

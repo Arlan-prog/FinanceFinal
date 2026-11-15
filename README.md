@@ -111,7 +111,7 @@ These are technical documentation sources, not Scopus journal papers.
 
 ## AI Disclosure Statement
 
-OpenAI Codex (GPT-6) assisted research, coding, financial modelling, writing and formatting. Commercial drivers and study costs are hypothetical. No customer responses were generated as evidence. Every member must review and explain the assumptions, calculations and code.
+OpenAI Codex (GPT-6) assisted with research, presentation preparation, and project development. The team takes responsibility for managing the project, reviewing its processes, and verifying and explaining the calculation logic, assumptions, and final results. All commercial conversion rates and study costs remain hypothetical. No customer responses were generated as research evidence.
 
 ## Submission checklist
 
