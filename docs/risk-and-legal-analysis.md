@@ -6,7 +6,7 @@ Review date: 14 November 2026. Educational simulation. All partners, customers, 
 
 Kepil's core risks are commercial adoption, dependence on a bank and the gap between a tested local contract and an operating escrow service. The prototype records authorizations; it cannot force a bank to transfer KZT or prove that a bank acknowledgement is true. Four independent validators reduce concentration in the target design, but do not make the bank, inspector or off-chain evidence trustworthy by themselves.
 
-The revised conditional full-launch model has NPV −296.88m KZT at 20%, minimum funding 411.27m, shortfall of 181.27m versus the former 230m benchmark and approximate operating runway of 22.62 months. No three-year payback occurs. The recommendation is to defer launch and evaluate a separate hypothetical 12m, three-month study. Neither the prototype nor explicit funnel formulas validate demand.
+Conditional agency-first base: revenue 13.53 / 60.64 / 121.04m KZT; net income -14.22 / 12.64 / 47.12m; NPV at 20% 6.20m; peak monthly funding 34.93m; undiscounted payback 2.42 operating years after six-month prelaunch. Profit is a conditional forecast, not actual earnings or validated demand. Lower conversion or higher costs can make NPV negative. No survey responses, paying clients, bank agreement or production Besu deployment are claimed. Paid founder and staff costs, tax, bank fees, security and administrative allowances are included. Receipts occur in the service month; annual CIT is allocated evenly monthly for liquidity planning, not a statutory tax schedule.
 
 ## Risk assessment method
 
@@ -33,23 +33,21 @@ Source: project-specific assessment based on the supplied Endterm, the current p
 
 Table 1 distinguishes implemented checks from planned controls. The 23 passing tests provide local behavioral evidence for selected contract paths. They do not verify a bank connection, privacy compliance, key recovery, an external audit or a Besu deployment. The previously observed Hardhat/Zod advisory is a tooling issue; it is not evidence of an exploitable flaw in the Solidity contract.
 
-## Retained full-launch mitigation budget
+## Revised lean mitigation budget
 
-Table 2. Budget lines supporting risk mitigation, KZT million
+Table 2. Risk allowances, KZT million; included once in model costs
 
-| Budget ID | Scope | Year 0 | Year 1 | Year 2 | Year 3 | Workbook location |
-|---|---|---:|---:|---:|---:|---|
-| B1 | Development team, including integration and test work | 55.00 | — | — | — | Forecast D69 |
-| B2 | External audit allowance, retained from Endterm | 6.50 | — | — | — | Assumptions D23 |
-| B3 | Legal/compliance allowance, including contract/data/IP review | 4.00 | — | — | — | Assumptions D25 |
-| B4 | Existing development tools and operating infrastructure | 2.00 | 4.20 | 9.00 | 16.80 | Assumptions D24 and E46:G46 |
-| B5 | Launch and operating marketing, including demand research | 3.50 | 6.00 | 15.00 | 28.00 | Assumptions D26 and E47:G47 |
-| B6 | Additional Besu setup and security integration | 1.20 | — | — | — | Assumptions D52 |
-| B7 | Additional fourth-operator and security operations allowance | — | 1.20 | 1.80 | 2.40 | Assumptions E52:G52 |
+| ID | Scope | Year 0 | Year 1 | Year 2 | Year 3 |
+|---|---|---:|---:|---:|---:|
+| B1 | Paid development/product | 8.10 | — | — | — |
+| B2 | Scoped security review | 3.00 | — | — | — |
+| B3 | Legal/bank feasibility | 2.00 | — | — | — |
+| B4 | Tools / operating hosting | 0.90 | 1.20 | 1.80 | 2.40 |
+| B5 | Discovery / B2B outreach | 0.60 | 2.40 | 4.80 | 4.80 |
+| B6 | Integration contingency | 3.40 | — | — | — |
+| B7 | Security/operator allowance | — | 1.20 | 1.80 | 2.40 |
 
-Source: Endterm budget and additional educational estimates approved by the user on 14 November 2026. Amounts are not supplier quotations or evidence of completed procurement.
-
-Year 0 spending is 55 + 6.5 + 4 + 2 + 3.5 + 1.2 = KZT 72.2 million. The legacy financing benchmark leaves 230 − 72.2 = KZT 157.8 million for operations. B7 is added once to infrastructure/security operations, yielding 5.4 / 10.8 / 19.2 million before scenario shocks. B6 and B7 are shared allowances; do not multiply them by the number of risks referencing them. Audit and legal work remain in B2 and B3, not counted again in B6.
+Source: revised scope estimates, 16 November 2026; not supplier quotations. Setup totals 18m, with 22m liquidity/reserve in the hypothetical 40m envelope. The first 5.6m gate is included, not additional. Paid payroll is 20.40 / 30.69 / 42.834m annually. Shared allowances are not multiplied by risks.
 
 Key recovery, reconciliation, monitoring and backup procedures are proposed uses of these allowances. Their inclusion is not proof that the allowance is sufficient or the controls exist. Unexpected litigation, a regulatory licence requirement or materially higher vendor prices would require a revised budget and decision. The project does not assume purchasing insurance or completing a certification.
 
@@ -89,7 +87,7 @@ The Ministry of Justice lists computer programs as copyright objects. For Kepil,
 
 IAS 38 distinguishes research expenditure from development expenditure meeting recognition criteria. With no evidence demonstrating those criteria for Kepil, the educational model expenses development and startup costs in Year 0. No corresponding intangible asset or amortization is invented. This is a modeling judgment, not a conclusion about every future cost. [IFRS Foundation, n.d., IAS 38 Intangible Assets](https://www.ifrs.org/issued-standards/list-of-standards/ias-38-intangible-assets/).
 
-Government guidance identifies base CIT of 20% and VAT of 16% under the new Tax Code. The model uses final VAT-inclusive prices, registration from launch, all modeled Kepil fees treated as taxable and no input-credit benefit. These last assumptions are conservative simplifications, not verified mandatory treatment of this exact service. Corporate income tax is calculated on positive modeled profit; the supplied scenarios are loss-making. A book loss does not universally prove zero tax in a real business. [Ministry of National Economy, 2025, New Tax Code announcement](https://www.gov.kz/org/economy/press/news/details/1036878?lang=ru).
+Government guidance identifies base CIT of 20% and VAT of 16% under the new Tax Code. The model uses final VAT-inclusive prices, registration from launch, all modeled Kepil fees treated as taxable and no input-credit benefit. These last assumptions are conservative simplifications, not verified mandatory treatment of this exact service. Corporate income tax is calculated on positive modeled profit; the revised base incurs CIT in profitable years. A book loss does not universally prove zero tax in a real business. [Ministry of National Economy, 2025, New Tax Code announcement](https://www.gov.kz/org/economy/press/news/details/1036878?lang=ru).
 
 The actual VAT registration point depends on applicable rules and turnover. Official 2026 guidance refers to a 10,000-MRP threshold for the general regime; the model does not claim that voluntary registration at launch is mandatory. No calendar start date or future MRP values are invented. A future implementation must verify taxability, input credits, deductible costs and filing/payment timing. [State Revenue Department, 2026, Exceeding the mandatory VAT registration threshold](https://www.gov.kz/org/kgd-alm/press/news/details/1285755).
 
@@ -97,9 +95,7 @@ The actual VAT registration point depends on applicable rules and turnover. Offi
 
 This review used official government, regulator and standards-setter sources. Some Adilet full-text pages returned access errors; the linked indexed official extracts or government-hosted copies support only the propositions stated. An article-by-article current consolidated legal opinion has not been completed. No unverified licence fee, bank tariff or legal exemption has been inserted.
 
-The full-launch budget above is a rejected immediate plan retained for comparison. The separate proposed study budgets 4.8m technical staff, 1.2m research staff, 2m security design review, 1m bank/legal feasibility review, 0.6m research, 0.4m tools, 0.5m recovery planning and 1.5m reserve. Shared mitigation budgets are counted once. Study security review does not replace the 6.5m production audit allowance if launch is later reconsidered.
-
-The proposed study negotiation example is 12m for 20% equity, implying 60m post-money and 48m pre-money. No valuation or positive investor return is validated. No company or token is created. Empirical commercial feasibility and real-world legal compliance remain unproven.
+Hypothetical funding envelope: 40m KZT, comprising 18m prelaunch and 22m liquidity/reserve. Base headroom above peak need: 5.07m. Commit only 5.6m for the first two-month feasibility gate initially. The former separate 12m study and 230m launch ask are superseded. Illustrative 20% equity implies 200m post-money / 160m pre-money; these are negotiation terms, not a validated valuation.
 
 ## AI Disclosure Statement
 

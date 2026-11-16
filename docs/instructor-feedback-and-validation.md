@@ -1,20 +1,13 @@
-# Response to instructor feedback
+# Response to instructor feedback — 16 November 2026
 
-Revision date: 15 November 2026. The active materials now adopt the corrected methodology below. Earlier submissions remain in private backups. The revision corrects analysis and disclosure; it does not establish empirical demand.
+Conditional agency-first base: revenue 13.53 / 60.64 / 121.04m KZT; net income -14.22 / 12.64 / 47.12m; NPV at 20% 6.20m; peak monthly funding 34.93m; undiscounted payback 2.42 operating years after six-month prelaunch.
 
-| Feedback | Correction in active materials | Remaining evidence needed |
-|---|---|---|
-| Acquisition unsupported | Direct budget divided by cost per lead, then qualification, both signatures and bank-funding conversion; sales capacity limits | Measured channel costs and conversion from permitted research |
-| Market size confused with housing stock | BNS 2025 stock explicitly separated from rental share, turnover and eligibility; former capture target withdrawn | Comparable tenure statistics, unique lease flows and an agency recruitment frame |
-| B2B growth unsupported | 36 monthly cohorts, two-month sales lag, 2% monthly churn, partial first-month billing; no opening accounts | Price acceptance, actual retention and acquisition evidence |
-| Sustainability weak | CAC, contribution, finite LTV and five scenarios; immediate full launch rejected | Viable unit economics and a costed operating plan |
+Hypothetical funding envelope: 40m KZT, comprising 18m prelaunch and 22m liquidity/reserve. Base headroom above peak need: 5.07m. Commit only 5.6m for the first two-month feasibility gate initially. The former separate 12m study and 230m launch ask are superseded. Illustrative 20% equity implies 200m post-money / 160m pre-money; these are negotiation terms, not a validated valuation.
 
-All conversion rates, lead costs, churn, channel mix and study costs are hypotheses dated 15 November 2026. They are not industry benchmarks or survey findings. Forecast volumes derive from budgets, not market-share targets. Direct and agency contracts are mutually exclusive.
+Proposed Lite/Pro prices are 49,000/99,000 KZT monthly including VAT, plus transaction fees. No direct consumer advertising. B2B outreach budgets 2.4/4.8/4.8m at 5,000 per qualified organization; capacity 40 qualified organizations per sales FTE-month; 25% trial and 40% paid conversion, two-month lag, 2% monthly churn, eight funded workflows per account-month. All are hypotheses. Astana pilot followed by conditional wider Kazakhstan coverage; no measured eligible-agency count.
 
-Conditional base: NPV −296.88m KZT, funding 411.27m, gap to the legacy 230m benchmark 181.27m, approximate runway 22.62 operating months. Year 3 revenue 10.02m versus opex 178.96m. Direct marketing CAC 14,285.71 KZT exceeds contribution before acquisition of 2,172.41 KZT. Year 3 B2B subscription LTV/CAC is 0.29. This is a no-launch conclusion under the stated hypotheses, not a corrected claim of profitability.
+Profit is a conditional forecast, not actual earnings or validated demand. Lower conversion or higher costs can make NPV negative. No survey responses, paying clients, bank agreement or production Besu deployment are claimed. Paid founder and staff costs, tax, bank fees, security and administrative allowances are included. Receipts occur in the service month; annual CIT is allocated evenly monthly for liquidity planning, not a statutory tax schedule.
 
-The separate proposed validation study caps hypothetical spending at 12m KZT over three months. It does not fund the operating model. Proposed gates are direct CAC below contribution, B2B simple CAC payback at most 12 months and finite LTV/CAC at least 3, plus feasible bank/legal scope. Thresholds are management choices, not observed achievements. If evidence fails, stop; no follow-on tranche is promised.
+Acquisition is now budget- and capacity-based. Monthly cohorts include lag, churn and partial first-month billing. Housing stock is not rental flow or a validated TAM/SAM. Sustainability is conditional on a smaller paid cost base and a different B2B proposition; downside cases remain negative. Detailed evidence, primary sources and stopping rules: [lean model register](lean-model-assumptions.md).
 
-Course research may collect consent-based anonymous opinions and usability feedback, not real customers, money or paid-retention evidence. No survey has been conducted. The questionnaire is in customer-research-questionnaire.md. Later lawful commercial research would be needed to establish paid behavior.
-
-Updated defense: no formal oral presentation; slides still submitted; required demo video, working prototype and individual Q&A. Every member studies the whole project. Defense is 12/40 and may produce different individual scores.
+The research protocol has zero responses. No participant answers were fabricated. Formal oral presentation is not required; slides, demo video, prototype and individual Q&A remain required. Defense is 12/40 and individual grades may differ.

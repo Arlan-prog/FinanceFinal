@@ -39,3 +39,9 @@ Instructor corrected to Daulet Shakenov using the team clarification. No academi
 Presentation visual revision — 15 November 2026
 Redesigned 23 slides with navy/teal/cream palette, Lucide vector icons and three credited illustrative stock photographs. Financial content and slide ownership remain unchanged. Numbered tables and figures, axis titles, source credits, APA reference emphasis and the university title-slide logo retained. Updated defense support notes and local submission copy. Existing report/PDF/model and self-evaluation page/slide assignments were inspected and remain applicable.
 Presentation delivery validation: 23 slides; native chart on slide 7 and six native tables; package integrity passed; layout findings 0; re-import passed. Key financial figures and instructor name verified. Rendered slides visually reviewed. Local master, submission and GitHub upload copies are byte-identical.
+
+
+16 November 2026 — lean model revision
+Paid agency-first scope, 18m setup and hypothetical 40m envelope. Base NPV 6.196544m, monthly peak funding 34.933318m, after-tax results -14.217468 / 12.637427 / 47.119871m, payback 2.415537 operating years. Independent arithmetic checks five cases, monthly cash, revenue, tax, costs, reconciliation, monthly service capacity, price/usage boundary and native sensitivity caches. No observed demand is claimed. Primary cost/tax context: docs/lean-model-assumptions.md.
+Solidity tests rerun: 23 passing; scripted local deployment-to-settlement demo completed. No code changes in this revision.
+Report rendered: 26 pages, main section pages 3–17. Slides: 23; package integrity passed, layout geometry zero findings, native charts/tables and import passed. Five self-evaluations remain one page. Historical evidence above is preserved; prior financial conclusions are superseded by the dated lean revision.

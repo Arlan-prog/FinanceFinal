@@ -3,58 +3,58 @@ Topic lead: financial model, acquisition and sensitivity. Slides 7–9, 19, 21, 
 These are Q&A preparation assignments, not a timed speech. Review the entire project.
 
 FINAL PROJECT — DEMO AND INDIVIDUAL Q&A
-Updated 15 November 2026. Formal oral presentation is not required. Slides remain mandatory submission files and support answers. Defense carries 12/40 points and individual grades may differ.
+Updated 16 November 2026. No formal oral presentation. Slides, 2:52 video, working local prototype and individual Q&A required; defense 12/40. Everyone understands the whole project.
+Run npm run build, npm test, npm run demo. Do not claim planned bank/Besu integration is implemented.
 
-Show the recorded video (2:52), demonstrate the local prototype and answer the examiner. Prepare npm run build, npm test and npm run demo. A recorded success is not proof that a failed live run succeeded. Never show private keys or real data.
+Conditional agency-first base: revenue 13.53 / 60.64 / 121.04m KZT; net income -14.22 / 12.64 / 47.12m; NPV at 20% 6.20m; peak monthly funding 34.93m; undiscounted payback 2.42 operating years after six-month prelaunch.
 
-Everyone must understand the whole project. Topic leads organize preparation, not exclusive answering rights. State your actual contribution honestly; do not claim another person's work or an unperformed survey.
+Hypothetical funding envelope: 40m KZT, comprising 18m prelaunch and 22m liquidity/reserve. Base headroom above peak need: 5.07m. Commit only 5.6m for the first two-month feasibility gate initially. The former separate 12m study and 230m launch ask are superseded. Illustrative 20% equity implies 200m post-money / 160m pre-money; these are negotiation terms, not a validated valuation.
 
-KEY NUMBERS (KZT million unless stated)
-Revenue Y1/Y2/Y3: 1.28 / 4.43 / 10.02.
-Opex: 64.37 / 111.47 / 178.96. Year 3 loss: 168.94.
-Setup: 72.20. NPV at 20%: -296.88. Minimum launch funding: 411.27.
-Legacy 230m benchmark gap: 181.27. Approximate runway: 22.62 operating months. No three-year payback.
-Conversion -30%: NPV -299.55, funding 415.51.
-Opex +10%: NPV -320.34, funding 446.75.
-No B2B: NPV -302.43, funding 420.18.
-Combined: NPV -322.98, funding 450.94.
-Direct CAC: 14,285.71 KZT; contribution before acquisition: 2,172.41 KZT. Scaling this channel at unchanged rates loses money.
-Year 3 B2B subscription LTV/CAC: 0.29; simple CAC payback approximately 88 months, ignoring churn, so not a forecast of recovery.
-Static break-even: 79,680 contracts at fixed B2B and overhead; not a feasible acquisition forecast.
-Proposed separate study: 12m for 3 months; 10.5m costs and 1.5m reserve; illustrative 20% equity gives 60m post-money and 48m pre-money. No second tranche committed.
+Proposed Lite/Pro prices are 49,000/99,000 KZT monthly including VAT, plus transaction fees. No direct consumer advertising. B2B outreach budgets 2.4/4.8/4.8m at 5,000 per qualified organization; capacity 40 qualified organizations per sales FTE-month; 25% trial and 40% paid conversion, two-month lag, 2% monthly churn, eight funded workflows per account-month. All are hypotheses. Astana pilot followed by conditional wider Kazakhstan coverage; no measured eligible-agency count.
+
+Profit is a conditional forecast, not actual earnings or validated demand. Lower conversion or higher costs can make NPV negative. No survey responses, paying clients, bank agreement or production Besu deployment are claimed. Paid founder and staff costs, tax, bank fees, security and administrative allowances are included. Receipts occur in the service month; annual CIT is allocated evenly monthly for liquidity planning, not a statutory tax schedule.
 
 CORE Q&A
-Q: Did you prove demand?
-A: No. We corrected the method and exposed the assumptions. No customer survey or paid retention evidence exists. The recommendation is to defer full launch.
+Q: Why is the new forecast profitable?
+A: We changed scope: paid FTE 3/4.5/5.5, no consumer advertising, agency subscription and repeated distinct workflows. The result also requires unmeasured pricing, usage and conversions; we show downside cases rather than claim proven demand.
+
+Q: How do you justify the prices?
+A: 49k/99k including VAT are proposed tiers, compared only as context with company software subscriptions. Bitrix24 is a broader, different product. Interviews and later lawful paid validation must establish acceptance of both subscription and transaction fees.
+
 Q: Where do customers come from?
-A: Year 1 direct budget 4.2m / CPL 1,500 × 30% qualified × 50% both signed × 70% funded = 294 contracts. These are hypotheses. B2B organizations use a separate funnel and monthly cohorts.
-Q: Why not multiply year-end subscribers by twelve?
-A: Accounts arrive during the year and some leave. Billable accounts are opening accounts after churn plus half of new accounts. We sum account-months. Year 1 average B2B is 1.76, year-end 4.12.
-Q: Is housing stock your market size?
-A: No. BNS reports 575,983 Astana premises for 2025. Rented share, lease turnover and eligibility are unknown. Scenario ranges are not validated TAM/SAM and do not drive sales.
-Q: Why is blockchain useful, and could a database work?
-A: Independent organizations could share an auditable state record. A conventional database is a valid simpler alternative if multi-party governance adds insufficient value. Blockchain cannot prove evidence is true or force a bank to pay.
+A: Annual qualified organizations: 2.4m / 5,000 = 480 in Year 1. Trial 25% and paid 40% give 10% conversion, after two months: 40 new paid accounts during Year 1. Billable accounts are opening after churn plus half of new. NPV uses -18m and three after-tax cash flows. Year 3 operating break-even is 67.69 average billable accounts at the stated prices and eight monthly workflows.
+
+Q: What is the market?
+A: Astana pilot, conditional wider Kazakhstan coverage after Year 1. BNS apartment stock is not annual leases or an eligible-agency count. We must validate a deduplicated 2,400-prospect list over three years.
+
 Q: Where is the money?
-A: At a hypothetical bank. Solidity records KZT amounts and authorizes allocations. Mock bank acknowledgement is separate from authorization. Deposits are never Kepil revenue or operating finance.
-Q: What runs today?
-A: Local Hardhat and Solidity. Four-validator Besu QBFT, bank API, recovery, pause and document storage are proposed. Tests do not establish their operation.
-Q: Why is NPV negative and what did you change?
-A: Acquisition-derived revenue is far below the retained cost envelope. We changed the sales method, not the numbers to force profitability. Financing is excluded from NPV. Study funding buys evidence, not a claim of business viability.
-Q: Why 20% discount and 20% equity?
-A: The discount rate is the course-compliant comparison assumption, not measured WACC. Equity is a separate classroom negotiation term, not a discount rate or NPV-based valuation.
+A: A hypothetical bank holds deposits. The contract authorizes allocations; mock bank settlement acknowledgement is separate. Deposits never finance Kepil.
+
+Q: What works today?
+A: Defense support. No formal oral presentation is required. Any member may be asked to explain this topic.
+
+Our target platform is Besu. Four independent organizations would operate the network: Kepil, a bank, an inspection company, and a technical operator. We chose Besu because it supports Solidity, the language used in our prototype. With four validators, QBFT can tolerate one faulty validator under its assumptions. Fabric is an alternative, but would require a different setup. Today, only the local Hardhat prototype is implemented. Besu and the bank connection are still planned.
+
+Q: Why blockchain?
+A: Independent parties could share an auditable record. A conventional database is a valid simpler alternative if independent governance adds insufficient value.
+
+Q: What are the funding and equity terms?
+A: Hypothetical funding envelope: 40m KZT, comprising 18m prelaunch and 22m liquidity/reserve. Base headroom above peak need: 5.07m. Commit only 5.6m for the first two-month feasibility gate initially. The former separate 12m study and 230m launch ask are superseded. Illustrative 20% equity implies 200m post-money / 160m pre-money; these are negotiation terms, not a validated valuation.
+
+Q: What happens if adoption is weaker?
+A: Conversion -30% gives NPV -22.62m; opex +10% gives -1.48m. The base is fragile. Year 3 fully allocated B2B CAC is 186,125 KZT, simple subscription CAC payback 4.15 months and finite LTV/CAC 6.23. There is no paid consumer advertising.
+
 Q: Tokenomics?
-A: No token is issued. Bank-held KZT and application permissions serve the use case. No token supply, sale, staking yield or token-funded revenue is assumed.
-Q: What stops automatic release?
-A: A dispute blocks it. Timed release needs tenant no-claims confirmation, no dispute, deadline reached and an explicit caller transaction. Time alone never executes code.
-Q: What are the main security limitations?
-A: A bank assertion may be false; inspector keys may be compromised; hashes do not prove truth. Immutable roles lack recovery and pause. Role/state tests cover selected local behavior, not a security audit.
-Q: How is the study controlled?
-A: A separate 12m cap, no revenue assumption and no second tranche. Direct CAC must fit contribution; B2B economics and bank feasibility need evidence. Stop if the gates fail. Course interviews cannot prove paid retention.
+A: No token is issued, no crypto transfers, staking, token sale or token-funded revenue.
+
+Q: Automatic release?
+A: Requires tenant no-claims confirmation, no dispute, the deadline and a caller transaction. Time alone does not execute code.
+
+Q: Did you run a survey?
+A: No. Zero customer responses collected. Assumptions are not survey findings.
+
 Q: What did AI do?
 A: OpenAI Codex (GPT-6) assisted with research, presentation preparation, and project development. The team takes responsibility for managing the project, reviewing its processes, and verifying and explaining the calculation logic, assumptions, and final results. All commercial conversion rates and study costs remain hypothetical. No customer responses were generated as research evidence.
 
 GitHub: https://github.com/Arlan-prog/FinanceFinal
-Demo: https://drive.google.com/file/d/1y6ScbQ-wPgfFQz3y9ex817yLJs_zvnVE/view?usp=drivesdk
-
-VISUAL SUPPORT UPDATE — 15 November 2026
-The redesigned deck keeps the same 23 slides and topic assignments. Use the process diagrams and numbered financial visuals to support answers. Stock photographs are illustrations only; they are not project customers or research evidence. Sources and figure/table references are in the slides and speaker notes.
+Demo: https://drive.google.com/file/d/1y6ScbQ-wPgfFQz3y9ex817yLJs_zvnVE/view

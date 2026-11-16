@@ -9,13 +9,15 @@ Kepil models a rental deposit held by a hypothetical bank. Solidity records the 
 - [GitHub repository](https://github.com/Arlan-prog/FinanceFinal)
 - [Recorded prototype demo](https://drive.google.com/file/d/1y6ScbQ-wPgfFQz3y9ex817yLJs_zvnVE/view?usp=drivesdk)
 
-## Revised analysis and defense format — 15 November 2026
+## Revised lean model — 16 November 2026
 
-The active report, slides, financial model and defense guides now use a budget-driven customer funnel and 36 monthly B2B cohorts. Earlier submitted versions remain in private backups. This revision does not claim new customer observations: conversion, churn, prices and acquisition costs remain hypotheses. See [feedback response](docs/instructor-feedback-and-validation.md) and [research protocol](docs/customer-research-questionnaire.md).
+Conditional agency-first base: revenue 13.53 / 60.64 / 121.04m KZT; net income -14.22 / 12.64 / 47.12m; NPV at 20% 6.20m; peak monthly funding 34.93m; undiscounted payback 2.42 operating years after six-month prelaunch.
 
-Conditional full-launch results: Year 1–3 net revenue KZT 1.28 / 4.43 / 10.02m; operating costs 64.37 / 111.47 / 178.96m; NPV at 20% −296.88m; minimum funding 411.27m; shortfall versus the former 230m benchmark 181.27m; approximate operating runway 22.62 months; no three-year payback. The 230m figure is a comparison benchmark, not the revised ask.
+Hypothetical funding envelope: 40m KZT, comprising 18m prelaunch and 22m liquidity/reserve. Base headroom above peak need: 5.07m. Commit only 5.6m for the first two-month feasibility gate initially. The former separate 12m study and 230m launch ask are superseded. Illustrative 20% equity implies 200m post-money / 160m pre-money; these are negotiation terms, not a validated valuation.
 
-The recommendation is to defer full launch. A separate proposed three-month validation study has a hypothetical 12m KZT ceiling (10.5m planned costs and 1.5m reserve). Illustrative 20% equity implies 60m post-money and 48m pre-money; this is negotiation arithmetic, not a supported valuation. No real investment is sought. Failure to validate economics means stop, with no committed second tranche.
+Proposed Lite/Pro prices are 49,000/99,000 KZT monthly including VAT, plus transaction fees. No direct consumer advertising. B2B outreach budgets 2.4/4.8/4.8m at 5,000 per qualified organization; capacity 40 qualified organizations per sales FTE-month; 25% trial and 40% paid conversion, two-month lag, 2% monthly churn, eight funded workflows per account-month. All are hypotheses. Astana pilot followed by conditional wider Kazakhstan coverage; no measured eligible-agency count.
+
+Profit is a conditional forecast, not actual earnings or validated demand. Lower conversion or higher costs can make NPV negative. No survey responses, paying clients, bank agreement or production Besu deployment are claimed. Paid founder and staff costs, tax, bank fees, security and administrative allowances are included. Receipts occur in the service month; annual CIT is allocated evenly monthly for liquidity planning, not a statutory tax schedule. See [assumption evidence and sources](docs/lean-model-assumptions.md).
 
 Formal oral presentation is not required. Submit the slides, present the demo video and working prototype, and prepare for individual questions on every part. Project Defense is 12 of 40 points; individual defense grades can differ. See [defense guide](Kepil_Defense_Team_Assignment.txt).
 
@@ -117,7 +119,7 @@ OpenAI Codex (GPT-6) assisted with research, presentation preparation, and proje
 
 The team lead submits `outputs/report/Final_Project_Report.pdf`, `Final_Project_Presentation.pptx` and their own self-evaluation PDF to Moodle. Other members submit their own self-evaluation PDFs. The DOCX is the editable report source. Paste the repository URL into the Moodle submission comment. No team number has been assigned; the project name remains Final Project.
 
-The model has one case selector at Assumptions D5: 1 conditional base, 2 conversion −30%, 3 opex +10%, 4 no B2B and 5 combined stress. The Acquisition sheet calculates contracts and billable account-months. Market separates housing stock from rental-event hypotheses. Validation is a separate proposed study budget, excluded from the full-launch forecast.
+The model has one case selector at Assumptions D5: 1 conditional base, 2 conversion −30%, 3 opex +10%, 4 no B2B and 5 combined stress. The Acquisition sheet calculates contracts and billable account-months. Market separates housing stock from rental-event hypotheses. Validation contains the 18m prelaunch schedule included once in Year 0. Staffing derives payroll from paid FTEs. Acquisition columns V:AG calculate monthly liquidity and capacity.
 
 Open the repository and demo in a logged-out browser before submission. A prior playback check does not guarantee future access. Each member must review their self-evaluation and make their own genuine contribution commits. Do not upload private build directories or backups.
 

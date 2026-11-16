@@ -14,13 +14,13 @@ Before participation, explain that this is voluntary anonymous academic research
 6. What current process is used? Direct agreement / Written inventory / Agent mediation / Bank arrangement / Other / Unsure.
 7. After a neutral description of bank custody and independent inspection, would you consider the workflow? Yes / Maybe / No. List objections using categories: price, bank access, privacy, delay, trust, no need, other.
 8. Would you consider a 3,000 KZT transaction fee on a 150,000 KZT deposit, with a 2% rate and 2,000 minimum? Yes / Maybe / No. Explain that quoted customer prices include VAT in the model.
-9. Separately, would reporting and multi-lease administration justify an optional 15,000 KZT monthly Lite subscription? Yes / Maybe / No.
-10. Would advanced administration justify 45,000 KZT monthly Pro? Yes / Maybe / No. Do not count both plans for one organization.
+9. Separately, would reporting and multi-lease administration justify an optional 49,000 KZT monthly Lite subscription? Yes / Maybe / No.
+10. Would advanced administration justify 99,000 KZT monthly Pro? Yes / Maybe / No. Do not count both plans for one organization.
 11. Would you accept paying the transaction fee in addition to a subscription? Yes / Maybe / No.
 12. Which missing feature or condition is essential? Use predefined categories without personal details.
 
 Report dates, recruitment channels, approached organizations, refusals, eligible respondents and completed responses. Deduplicate without storing personal identifiers. Publish only aggregates and suppress small identifying cells. Preserve negative responses. Report denominators for every percentage and distinguish stated interest from purchases.
 
-The model hypotheses (CPL 1,500; qualification 30%; both signatures 50%; funding 70%; B2B trial 30%; paid 20%; monthly churn 2%) are placeholders to challenge, not survey results. This questionnaire alone cannot measure paid conversion or retention. No real advertising, sales, enrollment or money collection is required by the course.
+The model hypotheses (5,000 per qualified organization; 25% trial; 40% paid; 2% monthly churn; eight funded workflows per account-month) are placeholders to challenge, not survey results. This questionnaire alone cannot measure paid conversion or retention. No real advertising, sales, enrollment or money collection is required by the course.
 
 Ready-to-use Russian questionnaire: [customer-survey-ru.txt](customer-survey-ru.txt). Blank response template: [customer-survey-response-template.txt](customer-survey-response-template.txt). No responses have been collected.
